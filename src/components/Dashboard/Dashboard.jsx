@@ -369,7 +369,7 @@ const Dashboard = ({ onSelectRateChange }) => {
                 view_list
               </span>
             </DxcFlex>
-          </DxcFlex>
+          </div>
 
           <div style={{ padding: 'var(--spacing-padding-m)' }}>
             {activeTab === 0 && (
