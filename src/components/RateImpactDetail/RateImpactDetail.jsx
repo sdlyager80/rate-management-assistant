@@ -334,7 +334,7 @@ const RateImpactDetail = ({ rateChange, onBack }) => {
                 <td style={{ padding: '12px', fontSize: '14px', fontWeight: '500' }}>{approval.role}</td>
                 <td style={{ padding: '12px', fontSize: '14px' }}>{approval.name}</td>
                 <td style={{ padding: '12px' }}>
-                  <DxcBadge label={approval.status} color={getStatusColor(approval.status)} size="small" />
+                  <DxcBadge label={approval.status} size="small" />
                 </td>
                 <td style={{ padding: '12px', fontSize: '14px' }}>{approval.date || '-'}</td>
                 <td style={{ padding: '12px', fontSize: '13px', color: '#666666' }}>{approval.notes || '-'}</td>
@@ -391,7 +391,6 @@ const RateImpactDetail = ({ rateChange, onBack }) => {
                 </DxcFlex>
                 <DxcBadge
                   label={item.status === 'completed' ? 'Done' : item.status === 'in_progress' ? 'In Progress' : 'Pending'}
-                  color={getStatusColor(item.status)}
                   size="small"
                 />
               </DxcFlex>
@@ -480,7 +479,7 @@ const RateImpactDetail = ({ rateChange, onBack }) => {
                   {details.id}
                 </span>
                 <span style={{ fontSize: '14px', color: '#666666' }}>•</span>
-                <DxcBadge label={details.status} color="blue" />
+                <DxcBadge label={details.status} />
               </DxcFlex>
             </DxcFlex>
 

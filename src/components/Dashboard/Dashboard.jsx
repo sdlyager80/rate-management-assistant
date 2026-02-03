@@ -105,7 +105,7 @@ const Dashboard = ({ onSelectRateChange }) => {
               {rateChange.source}
             </span>
           </DxcFlex>
-          <DxcBadge label={rateChange.status} color={getStatusColor(rateChange.status)} size="small" />
+          <DxcBadge label={rateChange.status} size="small" />
         </DxcFlex>
 
         <span style={{ fontSize: '14px', color: '#333333', fontWeight: '500' }}>
@@ -220,7 +220,7 @@ const Dashboard = ({ onSelectRateChange }) => {
               </DxcFlex>
             </td>
             <td style={{ padding: '12px 16px' }}>
-              <DxcBadge label={change.status} color={getStatusColor(change.status)} size="small" />
+              <DxcBadge label={change.status} size="small" />
             </td>
             <td style={{ padding: '12px 16px' }}>
               <span style={{ fontSize: '14px', fontWeight: '600', color: '#0095FF' }}>{change.premiumImpact}</span>
@@ -447,7 +447,7 @@ const Dashboard = ({ onSelectRateChange }) => {
                       </span>
                     </DxcFlex>
                   </DxcFlex>
-                  <DxcBadge label={change.priority} color={getStatusColor(change.status)} size="small" />
+                  <DxcBadge label={change.priority} size="small" />
                 </div>
               ))}
             </DxcFlex>

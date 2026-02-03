@@ -22,15 +22,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
+html, body, #root {
   margin: 0;
-  min-width: 320px;
+  padding: 0;
   min-height: 100vh;
+  width: 100%;
 }
 
-#root {
-  width: 100%;
-  min-height: 100vh;
+body {
+  min-width: 320px;
 }
 
 /* Reset default button styles */
