@@ -122,7 +122,7 @@ function App() {
     <DxcApplicationLayout
       header={
         <DxcApplicationLayout.Header
-          appTitle="Rate Management Assistant"
+          appTitle="Rate Impact and Change Assistant"
           sideContent={(isResponsive) =>
             isResponsive ? null : (
               <DxcFlex gap="var(--spacing-gap-m)" alignItems="center">

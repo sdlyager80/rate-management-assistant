@@ -262,7 +262,7 @@ const Dashboard = ({ onSelectRateChange }) => {
         {/* Header */}
         <DxcFlex justifyContent="space-between" alignItems="center">
           <DxcFlex direction="column" gap="4px">
-            <DxcHeading level={2} text="Rate Management Dashboard" />
+            <DxcHeading level={2} text="Rate Impact and Change Dashboard" />
             <span style={{ fontSize: '14px', color: '#666666' }}>
               Welcome back, {currentUser.name}. Track and manage all rate changes.
             </span>

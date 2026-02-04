@@ -1,4 +1,4 @@
-// Mock data for Rate Management Assistant
+// Mock data for Rate Impact and Change Assistant
 
 export const currentUser = {
   name: "Alex Rodriguez",

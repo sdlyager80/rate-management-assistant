@@ -1,4 +1,4 @@
-# Rate Management Assistant
+# Rate Impact and Change Assistant
 
 **ALR + NCCI Integrated Rate Change Modeling & Deployment for P&C Insurers**
 
@@ -6,7 +6,7 @@ A modern, intelligent UI for managing insurance rate changes across multiple lin
 
 ## Overview
 
-Rate changes today are slow, risky, and siloed by line of business. Rate Management Assistant unifies ALR (Advisory Loss Ratio) and NCCI (National Council on Compensation Insurance) rating updates into one intelligent workflow.
+Rate changes today are slow, risky, and siloed by line of business. Rate Impact and Change Assistant unifies ALR (Advisory Loss Ratio) and NCCI (National Council on Compensation Insurance) rating updates into one intelligent workflow.
 
 ### Key Capabilities
 
